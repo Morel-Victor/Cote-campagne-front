@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Gallerys from "@/components/Gallerys.vue";
+import Gallerys from "@/components/Gallerys/Gallerys.vue";
 
 export default {
   name: "Gallery",

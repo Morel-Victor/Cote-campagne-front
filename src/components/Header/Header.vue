@@ -51,7 +51,7 @@ img {
 }
 .nav {
   color: var(--color--text);
-  font-size: 32px;
+  font-size: 28px;
   width: 800px;
   margin: 30px;
   text-align: end;

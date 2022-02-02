@@ -4,7 +4,7 @@
 </template>
 
 <script>
-import Header from "./components/Header.vue";
+import Header from "./components/Header/Header.vue";
 
 export default {
   name: "App",
@@ -33,6 +33,7 @@ export default {
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 @font-face {
   font-family: "KG-Ten-Thousand-Reasons-Alt";
