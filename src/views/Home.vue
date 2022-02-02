@@ -1,18 +1,21 @@
 <template>
-  <div class="container">
-    <Home />
-  </div>
+  <div class="container"><h1>HOME</h1></div>
+  <Carousel />
 </template>
 
 <script>
-import Home from "./components/Home.vue";
+import Carousel from "@/components/Carousel.vue";
 
 export default {
   name: "Home",
   components: {
-    Home,
+    Carousel,
   },
 };
 </script>
 
-<style></style>
+<style>
+.container {
+  color: white;
+}
+</style>

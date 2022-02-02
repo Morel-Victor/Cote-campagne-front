@@ -17,6 +17,8 @@ export default {
 .container {
   height: 180px;
   width: 100%;
+  color: white;
+  font-size: 20px;
 }
 img {
   height: 180px;
