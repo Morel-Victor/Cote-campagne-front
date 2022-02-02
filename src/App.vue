@@ -1,26 +1,43 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Header />
+  <router-view />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from "./components/Header.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    Header,
+  },
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+:root {
+  font-family: "KG-Ten-Thousand-Reasons-Alt";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color--primary);
+  --color--primary: #1b1c20;
+  /* --color--secondary: rgb(1, 30, 38); */
+  --color--text: #ffffff;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "KG-Ten-Thousand-Reasons-Alt";
+  src: url("assets/KG-Ten-Thousand-Reasons-Alt.ttf.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 </style>
