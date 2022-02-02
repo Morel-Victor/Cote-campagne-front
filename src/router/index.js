@@ -8,9 +8,21 @@ const routes = [
     component: Home,
   },
   {
+    path: "/information",
+    name: "Qui sommes-nous",
+  },
+  {
     path: "/gallerie",
     name: "Gallery",
     component: () => import("../views/Gallery.vue"),
+  },
+  {
+    path: "/horaires",
+    name: "Horaires",
+  },
+  {
+    path: "/contact",
+    name: "Contact",
   },
 ];
 
