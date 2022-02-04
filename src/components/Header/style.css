@@ -1,0 +1,33 @@
+.container {
+  height: 180px;
+  width: 100%;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.col-12 {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+img {
+  height: 180px;
+  width: 180px;
+  margin: 20px;
+  display: flex;
+}
+.nav {
+  color: var(--color--text);
+  font-size: 28px;
+  width: 800px;
+  margin: 30px;
+  text-align: end;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}

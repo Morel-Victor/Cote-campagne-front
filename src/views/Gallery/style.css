@@ -1,0 +1,15 @@
+.container {
+  width: 75vw;
+  min-height: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-shadow: inset 0px 0px 22px -1px #000000;
+  box-shadow: inset 0px 0px 22px -1px #000000;
+}
+
+h1 {
+  color: var(--color--text);
+  font-size: 42px;
+  height: 75px;
+  margin: 0;
+}
