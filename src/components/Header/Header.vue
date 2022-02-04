@@ -14,7 +14,6 @@
           <router-link to="/">Contact </router-link>
         </div>
       </div>
-      <router-view />
     </div>
   </div>
 </template>
