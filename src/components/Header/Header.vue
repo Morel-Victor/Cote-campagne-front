@@ -9,7 +9,7 @@
         </div>
         <div class="nav">
           <router-link to="/">Qui sommes-nous </router-link>
-          <router-link to="/Gallery">Gallerie </router-link>
+          <router-link to="/gallerie">Gallerie </router-link>
           <router-link to="/">Horaires </router-link>
           <router-link to="/">Contact </router-link>
         </div>
@@ -51,12 +51,14 @@ img {
 }
 .nav {
   color: var(--color--text);
-  font-size: 32px;
-  width: 100%;
+  font-size: 28px;
+  width: 800px;
   margin: 30px;
   text-align: end;
 }
 a {
   cursor: pointer;
+  text-decoration: none;
+  color: white;
 }
 </style>

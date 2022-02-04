@@ -27,11 +27,13 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .container {
   width: 80vw;
+  height: 500px;
   display: flex;
   flex-direction: column;
+  padding-top: 200px;
   margin-left: auto;
   margin-right: auto;
 }
