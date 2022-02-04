@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Home from "../views/Home.vue";
+import Home from "../views/Home/Home.vue";
 
 const routes = [
   {
@@ -14,7 +14,7 @@ const routes = [
   {
     path: "/gallerie",
     name: "Gallery",
-    component: () => import("../views/Gallery.vue"),
+    component: () => import("../views/Gallery/Gallery.vue"),
   },
   {
     path: "/horaires",

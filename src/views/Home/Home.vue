@@ -15,7 +15,7 @@
           <div class="col">
             <img
               id="welcome1"
-              src="@/assets/photoHome.png"
+              src="@/assets/photoHome.jpg"
               data-aos="zoom-in-up"
               data-aos-offset="500"
             />
@@ -59,7 +59,7 @@
           <div class="col">
             <img
               id="welcome2"
-              src="@/assets/photoHome2.png"
+              src="@/assets/photoHome2.jpg"
               data-aos="zoom-in-up"
               data-aos-offset="500"
             />
@@ -125,7 +125,7 @@
               </p>
             </div>
             <div id="box4">
-              <img id="map" src="@/assets/map.png" />
+              <img id="map" src="@/assets/map.jpg" />
             </div>
           </div>
         </div>
