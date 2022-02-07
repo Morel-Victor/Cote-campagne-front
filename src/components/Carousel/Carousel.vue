@@ -27,13 +27,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.container {
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  padding-top: 200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
+<style src="./style.css" scoped></style>
