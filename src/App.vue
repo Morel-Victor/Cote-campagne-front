@@ -27,7 +27,7 @@ export default {
   padding: 0;
   background-color: var(--color--primary);
   --color--primary: #1b1c20;
-  --color--secondary: #8bb46f);
+  --color--secondary: #8bb46f;
   --color--text: #ffffff;
 }
 body {
