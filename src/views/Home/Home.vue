@@ -6,8 +6,8 @@
     </div>
 
     <section class="about">
-      <div id="header">
-        <img src="@/assets/Flower.png" class="divider" />
+      <div id="header1">
+        <img src="@/assets/Flower.png" class="divider" alt="fleur"/>
         <h2>Qui somme nous ?</h2>
       </div>
       <div id="aboutContent">
@@ -18,6 +18,7 @@
               src="@/assets/photoHome.jpg"
               data-aos="zoom-in-up"
               data-aos-offset="500"
+              alt="fleur"
             />
           </div>
           <div class="col">
@@ -62,6 +63,7 @@
               src="@/assets/photoHome2.jpg"
               data-aos="zoom-in-up"
               data-aos-offset="500"
+              alt="fleur"
             />
           </div>
         </div>
@@ -70,7 +72,7 @@
 
     <section id="shedule">
       <div id="header2">
-        <img src="@/assets/Flower.png" class="divider" />
+        <img src="@/assets/Flower.png" class="divider2" alt="fleur"/>
         <h2>Horaires d'ouverture</h2>
       </div>
       <div class="sheduleContent">
@@ -125,26 +127,26 @@
               </p>
             </div>
             <div id="box4">
-              <img id="map" src="@/assets/map.jpg" />
+              <a href="https://cutt.ly/hPs0AOz">
+                <img id="map" src="@/assets/map.jpg" alt="fleur"/>
+              </a>
             </div>
           </div>
         </div>
       </div>
     </section>
   </div>
-  <Footer />
 </template>
 
 <script>
 import Carousel from "@/components/Carousel/Carousel.vue";
-import Footer from "@/components/Footer/Footer.vue";
 
 export default {
   name: "Home",
   components: {
     Carousel,
-    Footer,
   },
+
 };
 </script>
 
