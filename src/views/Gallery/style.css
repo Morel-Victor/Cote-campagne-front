@@ -8,6 +8,16 @@
   overflow: auto;
 }
 
+.CardContainer {
+  margin-right:auto;
+  margin-left:auto;
+  width: 60vw;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 h1 {
   color: var(--color--text);
   font-size: 35px;
