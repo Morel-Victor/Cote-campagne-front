@@ -1,15 +1,20 @@
 <template>
-  <Header />
-  <router-view />
+  <div id="app" v-cloak>
+    <Header />
+      <router-view/>
+    <Footer />
+  </div>
 </template>
 
 <script>
 import Header from "./components/Header/Header.vue";
+import Footer from "@/components/Footer/Footer.vue";
 
 export default {
   name: "App",
   components: {
     Header,
+    Footer
   },
 };
 </script>
@@ -40,5 +45,8 @@ body {
   src: url("assets/KG-Ten-Thousand-Reasons-Alt.ttf.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+}
+[v-cloak] {
+  display: none;
 }
 </style>
