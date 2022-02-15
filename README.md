@@ -1,24 +1,16 @@
-# cote-campagne-front
+# Côté-campagne-front 🌱
 
-## Project setup
-```
-npm install
-```
+<img src="https://i.ibb.co/qF3m1LD/logo.jpg" data-canonical-src="https://i.ibb.co/qF3m1LD/logo.jpg" width="200" height="200" />
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Description ✍🏻
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Website for Côté Campagne company .
+Their project is for a florist company .
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Getting started 📌 ##
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1 - Fork the project
+
+2 - in your terminal install packages `npm install i`
+
+3 - run your local server `npm run start`
