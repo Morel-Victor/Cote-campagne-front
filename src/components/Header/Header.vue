@@ -4,14 +4,14 @@
       <div class="col-12">
         <div id="logo">
           <router-link to="/">
-            <img src="@/assets/logo.jpg" class="logo" />
+            <img src="@/assets/chalogofleur.png" class="logo" alt="fleur"/>
           </router-link>
         </div>
         <div class="nav">
-          <router-link to="/">Qui sommes-nous </router-link>
-          <router-link to="/gallerie">Gallerie </router-link>
-          <router-link to="/">Horaires </router-link>
-          <router-link to="/">Contact </router-link>
+          <a class="nav-link nav-link-ltr" href="http://localhost:8080/#header1">Qui sommes-nous </a>
+          <router-link class="nav-link nav-link-ltr" to="/gallerie">Gallerie </router-link>
+          <a class="nav-link nav-link-ltr" href="http://localhost:8080/#header2">Horaires </a>
+          <a class="nav-link nav-link-ltr" href="/">Contact </a>
         </div>
       </div>
     </div>
@@ -27,38 +27,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.container {
-  height: 180px;
-  width: 100%;
-}
-.row {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
-.col-12 {
-  width: 100vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-img {
-  height: 180px;
-  width: 180px;
-  margin: 20px;
-  display: flex;
-}
-.nav {
-  color: var(--color--text);
-  font-size: 28px;
-  width: 800px;
-  margin: 30px;
-  text-align: end;
-}
-a {
-  cursor: pointer;
-  text-decoration: none;
-  color: white;
-}
-</style>
+<style src="./style.css" scoped></style>
