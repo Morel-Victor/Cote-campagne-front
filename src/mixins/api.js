@@ -4,7 +4,7 @@ export default {
   data() {
     return {
       Axios: axios.create({
-        baseURL: "http://localhost:3031",
+        baseURL: "http://localhost:1337",
       }),
     };
   },

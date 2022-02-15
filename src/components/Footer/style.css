@@ -1,7 +1,9 @@
 .container {
   width: 100%;
   height: 100px;
-  display: flex;
+  position:fixed;
+  bottom:0;
+  z-index:100;
 }
 
 img {
@@ -21,15 +23,21 @@ p {
 }
 
 .socialBtn {
-  margin: 10px 15px;
+  margin: 30px 15px 0 15px;
   cursor: pointer;
   border-radius: 15px;
-  width: 50px;
-  height: 50px;
-  font-size: 60px;
   outline: none;
   border: none;
   background: none;
+}
+
+.instagram {
+  height: 55px;
+  width: 55px;
+  border-radius: 15px;
+  background: #1b1c20;
+  box-shadow:  5px 5px 10px #101113,
+  -5px -5px 10px #26272d;
 }
 
 .instagram:hover {
@@ -39,19 +47,22 @@ p {
     rgba(253, 29, 29, 1) 50%,
     rgba(252, 176, 69, 1) 100%
   );
-  transition: all 0.3s ease;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.5s ease;
+  box-shadow:inset 0 0 0 5px white;
+}
+
+.facebook {
+  height: 55px;
+  width: 55px;
+  border-radius: 15px;
+  background: #1b1c20;
+  box-shadow:  5px 5px 10px #101113,
+  -5px -5px 10px #26272d;
 }
 
 .facebook:hover {
   background: #2b73ba;
-  transition: all 0.3s ease;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
-    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  transition: all 0.5s ease;
+  box-shadow:inset 0 0 0 5px white;
 }
 
-.col2 p {
-  width: 81.3vw;
-  text-align: center;
-  margin-top: 12px;
-}

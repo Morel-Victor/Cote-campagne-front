@@ -1,15 +1,12 @@
 <template>
   <div class="container">
     <div class="col1">
-      <button type="button" class="socialBtn">
-        <img class="socialBtn instagram" src="@/assets/instagram.png" />
-      </button>
-      <button type="button" class="socialBtn">
-        <img class="socialBtn facebook" src="@/assets/facebook.png" />
-      </button>
-    </div>
-    <div class="col2">
-      <p>côté campagne sarl</p>
+        <a href="https://www.instagram.com/cotecampagnefleurs/?hl=fr">
+          <img class="socialBtn instagram" src="@/assets/instagram2.png" alt="logo instagram"/>
+        </a>
+      <a href="https://www.facebook.com/fleurscotecampagne">
+        <img class="socialBtn facebook" src="@/assets/facebook2.png" alt="logo facebook"/>
+      </a>
     </div>
   </div>
 </template>

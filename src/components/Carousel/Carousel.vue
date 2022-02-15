@@ -1,8 +1,8 @@
 <template>
   <div class="container">
-    <carousel :items-to-show="1">
-      <slide v-for="slide in 3" :key="slide">
-        {{ slide }}
+    <carousel :items-to-show="1" autoplay="5000" wrapAround="true">
+      <slide v-for="slide in slides" v-bind:key="slide.url">
+        <img v-bind:src="slide.url" alt="carousel img"/>
       </slide>
       <template #addons>
         <navigation />
@@ -24,6 +24,15 @@ export default {
     Pagination,
     Navigation,
   },
+  data() {
+    return {
+      slides: [
+          {name: "asset1", url:"https://cutt.ly/OPsTbpl"},
+          {name: "asset2", url:"https://cutt.ly/JPsGJAt"},
+          {name: "asset3", url:"https://cutt.ly/sPsGNfi"},
+      ]
+    }
+  }
 };
 </script>
 
