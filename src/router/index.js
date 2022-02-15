@@ -24,6 +24,11 @@ const routes = [
     path: "/contact",
     name: "Contact",
   },
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'NotFound',
+    component: () => import("@/components/NotFound/NotFound"),
+  }
 ];
 
 const router = createRouter({
