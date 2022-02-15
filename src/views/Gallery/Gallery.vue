@@ -2,7 +2,6 @@
   <h1>Gallerie</h1>
   <div class="container">
     <HeaderGallery />
-    <div class="content"></div>
   </div>
 </template>
 
